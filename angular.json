@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "movieAngular"
+    }
+  },
+  "defaultProject": "movieAngular",
+  "cli": {
+    "analytics": "daa98ac4-bbc5-4ba3-ba33-f51a7e5c8853"
+  }
 }

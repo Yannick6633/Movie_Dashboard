@@ -1,0 +1,7 @@
+.container {
+  width:100vw;
+  padding: 30px;
+}
+.card {
+  border-spacing: 5px 1rem;
+}

@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div *ngFor="let movie of movies" class="card" style="width: 18rem;">​​
+      <img class="card-img-top" src="http://ec2-15-188-239-61.eu-west-3.compute.amazonaws.com:3000/{{ movie.picture }}" alt="">
+      <div class="card-body">
+        <h5 class="card-title">{{ movie.title }}</h5>
+        <p class="card-text">{{ movie.year }}</p>
+        <a [routerLink]="['/movieDetail', movie.id]" class="btn btn-primary">Détail</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+

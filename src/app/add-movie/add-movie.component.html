@@ -1,0 +1,41 @@
+<div class="container">
+<form [formGroup]="addMovieForm" (ngSubmit)="send()">
+
+      <div class="form-group text-center">
+        <label for="title">Title</label>
+        <input type="text" formControlName="title" placeholder="Title">
+      </div>
+
+      <div class="form-group text-center">
+        <label for="title">Year</label>
+        <input type="text" formControlName="year" placeholder="Year">
+      </div>
+
+      <div class="form-group text-center">
+        <label for="note">Note</label>
+        <input type="text" formControlName="note" placeholder="Note">
+      </div>
+
+      <div class="form-group text-center">
+        <label for="category">Category</label>
+        <input type="text" formControlName="category" placeholder="Category">
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+      <textarea class="form-control rounded-0" name="description" formControlName="description" placeholder="Description" rows="5"></textarea>
+    </div>
+
+    <div class="form-group text-center">
+      <label for="picture">Picture</label>
+      <input type="text" formControlName="picture" placeholder="Picture">
+    </div>
+
+    <div class="form-group text-center">
+      <button class="btn-success" type="submit">Add Movie</button>
+    </div>
+
+
+
+  </form>
+</div>
